@@ -11,10 +11,7 @@ public class trim
         int m = sc.nextInt();
         int n = sc.nextInt();
         boolean found = false;
-        
-        if((n*m) % 3 != 0)
-            return 0;
-        
+              
         if(n%3 != 0)
         {
             int temp = n;
